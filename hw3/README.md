@@ -6,6 +6,7 @@ python3 fcn32_inference.py [GPU id] [model weight path] [input dir] [output dir]
 ```
 
 ## Baseline Performance
+#### FCN32s
 ```
 class #0 : 0.74382
 class #1 : 0.88017
