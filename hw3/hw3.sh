@@ -1,0 +1,1 @@
+python3 fcn32_inference.py 6 ./models/0.68.pkl $1 $2
