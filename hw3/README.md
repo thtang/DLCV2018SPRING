@@ -16,3 +16,6 @@ class #4 : 0.72560
 class #5 : 0.70210
 mean iou score: 0.698
 ```
+<img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/sat.png" width="200">
+<img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/ground_truth.png" width="200">
+<img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/prediction.png" width="200">
