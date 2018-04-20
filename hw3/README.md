@@ -17,6 +17,7 @@ class #4 : 0.72560
 class #5 : 0.70210
 mean iou score: 0.698
 ```
+<img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/legend.png" width="320">
 
 Satellite       |  Ground truth | Prediction
 :-------------------------:|:-------------------------:|:-------------------------:
