@@ -30,4 +30,4 @@ Satellite       |  Ground truth | Prediction
 ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/sat.png)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/ground_truth.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/prediction.png)
 
 ## Reference
-TA's PDF
+TA's PDF[[1]](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/DLCV_hw3.pdf)
