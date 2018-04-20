@@ -1,5 +1,6 @@
 # Sementic Segmentation
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/flow.png" width="500">
+
 ## Usage
 ```
 python3 fcn32_inference.py [GPU id] [model weight path] [input dir] [output dir]
