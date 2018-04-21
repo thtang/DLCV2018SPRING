@@ -2,3 +2,4 @@
 *.png
 *.jpg
 *.npy
+*_model.pkt
