@@ -24,7 +24,8 @@ class #5 : 0.70210
 mean iou score: 0.698
 ```
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/legend.png" width="320">
-FCN32s:
+
+FCN32s results:
 
  Validation img|Satellite       |  Ground truth | Epoch 1 |Epoch 10 | Epoch 20
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
@@ -32,7 +33,7 @@ FCN32s:
 0097|![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_sat.jpg)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_1_o.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_10_o.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_20_o.png) 
 0107|![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_sat.jpg)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_1_o.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_10_o.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_20_o.png) 
 
-FCN8s:
+FCN8s results:
 
  Validation img|Satellite       |  Ground truth | Epoch 1 |Epoch 10 | Epoch 20
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
