@@ -5,7 +5,7 @@
 #### Preprocessing
 Refers to [preprocessing.ipynb](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/preprocessing.ipynb).
 #### Training
-Refers to [fcn32.ipynb](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/fcn32.ipynb).
+Refers to [train.ipynb](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/train.ipynb).
 
 #### Testing
 ```
