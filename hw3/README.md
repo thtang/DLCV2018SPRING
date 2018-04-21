@@ -25,9 +25,10 @@ mean iou score: 0.698
 ```
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/legend.png" width="320">
 
-Satellite       |  Ground truth | Prediction
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/sat.png)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/ground_truth.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/prediction.png)
-
+Satellite       |  Ground truth | Epoch 1 |Epoch 10 | Epoch 20
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0008_sat.jpg)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0008_mask.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0008_mask_1.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0008_mask_10.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0008_mask_20.png) 
+![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_sat.jpg)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_1.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_10.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_20.png) 
+![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_sat.jpg)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_1.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_10.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_20.png) 
 ## Reference
 TA's PDF[[1]](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/DLCV_hw3.pdf)
