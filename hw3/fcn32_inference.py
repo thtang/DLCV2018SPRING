@@ -20,22 +20,31 @@ pretrained_weight_path = sys.argv[2]
 input_dir = sys.argv[3]
 output_dir = sys.argv[4]
 
-class fcn32(nn.Module):
+class fcn32s(nn.Module):
     def __init__(self, num_classes, pretrained = True):
-        super(fcn32, self).__init__()
+        super(fcn32s, self).__init__()
         self.vgg = torchvision.models.vgg16(pretrained=True)
-        # class torch.nn.ConvTranspose2d
-        # (in_channels, out_channels, kernel_size, stride=1, padding=0, 
+        # nn.ConvTranspose2d(in_channels, out_channels, kernel_size, stride=1, padding=0, 
         # output_padding=0, groups=1, bias=True, dilation=1)
         self.vgg.classifier = nn.Sequential(
-            nn.ConvTranspose2d(512, num_classes, 32 , 32 , 0, bias=False)
+            nn.Conv2d(512, 4096, kernel_size=(2, 2), stride=(1, 1)),
+            nn.ReLU(inplace=True),
+            nn.Dropout2d(),
+            
+            nn.Conv2d(4096, 4096, kernel_size=(1, 1), stride=(1, 1)),
+            nn.ReLU(inplace=True),
+            nn.Dropout2d(),
+            
+            nn.Conv2d(4096, num_classes, kernel_size=(1, 1), stride=(1, 1)),
+            nn.ConvTranspose2d(num_classes, num_classes, 64 , 32 , 0, bias=False),
         )
     def  forward (self, x) :        
         x = self.vgg.features(x)
+#         print(x.size())
         x = self.vgg.classifier(x)
         return x
 
-model = fcn32(7).cuda()
+model = fcn32s(7).cuda()
 model = torch.nn.DataParallel(model)
 model.load_state_dict(torch.load(pretrained_weight_path))
 print("model loaded")
