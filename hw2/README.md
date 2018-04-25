@@ -68,7 +68,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_5_0.png)
 
 
 
@@ -110,7 +110,7 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_8_0.png)
 
 
 ### Problem 2(b)
@@ -165,7 +165,7 @@ plt.show()
 ```
 
 
-![png](output_12_0.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_12_0.png)
 
 
 
@@ -219,7 +219,7 @@ plt.show()
 ```
 
 
-![png](output_15_0.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_15_0.png)
 
 
 # Problem 3 : Recognition with Bag of Visual Words
@@ -257,7 +257,7 @@ plt.show()
 
 
 
-![png](output_19_1.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_19_1.png)
 
 
 ### Problem 3(b)
@@ -364,7 +364,7 @@ plt.show()
 
 
 
-![png](output_26_1.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_26_1.png)
 
 
 ### Problem 3(c)
@@ -462,7 +462,7 @@ plt.show()
 ```
 
 
-![png](output_32_0.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_32_0.png)
 
 
 
@@ -517,7 +517,7 @@ plt.show()
 ```
 
 
-![png](output_35_0.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_35_0.png)
 
 
 ### Problem 3(d)
