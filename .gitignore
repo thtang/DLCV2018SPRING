@@ -4,3 +4,4 @@
 *.npy
 *_model.pkt
 *-checkpoint.ipynb
+*.pyc
