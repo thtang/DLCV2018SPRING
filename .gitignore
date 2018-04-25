@@ -3,3 +3,4 @@
 *.jpg
 *.npy
 *_model.pkt
+*-checkpoint.ipynb
