@@ -21,7 +21,7 @@ input_dir = sys.argv[3]
 output_dir = sys.argv[4]
 
 class fcn32s(nn.Module):
-    def __init__(self, num_classes, pretrained = True):
+    def __init__(self, num_classes, pretrained = False):
         super(fcn32s, self).__init__()
         self.vgg = torchvision.models.vgg16(pretrained=True)
         # nn.ConvTranspose2d(in_channels, out_channels, kernel_size, stride=1, padding=0, 
@@ -40,7 +40,6 @@ class fcn32s(nn.Module):
         )
     def  forward (self, x) :        
         x = self.vgg.features(x)
-#         print(x.size())
         x = self.vgg.classifier(x)
         return x
 
