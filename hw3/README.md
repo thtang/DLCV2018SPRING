@@ -13,18 +13,17 @@ python3 fcn32_inference.py [GPU id] [model weight path] [input dir] [output dir]
 ```
 
 ## Baseline Performance
-#### FCN32s-prune
-```
+class|  FCN32s | FCN8s 
+:-------------------------:|:-------------------------:|:-------------------------:
+class 0|0.70796|0.75347
+class 1|0.87159 |0.88461
+class 2| 0.28390 |0.34221
+class 3| 0.78811|0.79009
+class 4| 0.69469|0.73988
+class 5| 0.67908|0.68888
+mean_iou | **0.670888** | **0.699856**
 
-class #0 : 0.70796
-class #1 : 0.87159
-class #2 : 0.28390
-class #3 : 0.78811
-class #4 : 0.69469
-class #5 : 0.67908
 
-mean_iou: 0.670888
-```
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/legend.png" width="320">
 
 FCN32s results:
