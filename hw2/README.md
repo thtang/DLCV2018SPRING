@@ -235,7 +235,7 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](https://github.com/thtang/DLCV2018SPRING/blob/master/hw2/hw2_r06946003_md/output_18_0.png)
 
 
 
