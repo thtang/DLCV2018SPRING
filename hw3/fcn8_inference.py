@@ -21,9 +21,9 @@ input_dir = sys.argv[3]
 output_dir = sys.argv[4]
 
 class fcn8s(nn.Module):
-    def __init__(self, num_classes, pretrained = True):
+    def __init__(self, num_classes, pretrained = False):
         super(fcn8s, self).__init__()
-        self.vgg = torchvision.models.vgg16(pretrained=True)
+        self.vgg = torchvision.models.vgg16(pretrained=pretrained)
         self.to_pool3 = nn.Sequential(*list(self.vgg.features.children())[:17])
         self.to_pool4 = nn.Sequential(*list(self.vgg.features.children())[17:24])
         self.to_pool5 = nn.Sequential(*list(self.vgg.features.children())[24:])

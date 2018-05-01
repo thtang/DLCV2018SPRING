@@ -23,7 +23,7 @@ output_dir = sys.argv[4]
 class fcn32s(nn.Module):
     def __init__(self, num_classes, pretrained = False):
         super(fcn32s, self).__init__()
-        self.vgg = torchvision.models.vgg16(pretrained=True)
+        self.vgg = torchvision.models.vgg16(pretrained=pretrained)
         # nn.ConvTranspose2d(in_channels, out_channels, kernel_size, stride=1, padding=0, 
         # output_padding=0, groups=1, bias=True, dilation=1)
         self.vgg.classifier = nn.Sequential(
@@ -100,6 +100,6 @@ masks_RGB = masks_RGB.astype(np.uint8)
 print("save image...")
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
-
+print("path:",os.path.join(output_dir,image_id_list[1]+"_mask.png"))
 for i, mask_RGB in enumerate(masks_RGB):
-	skimage.io.imsave(os.path.join(output_dir,image_id_list[i]+"_mask.png"), mask_RGB)
+    skimage.io.imsave(os.path.join(output_dir,image_id_list[i]+"_mask.png"), mask_RGB)
