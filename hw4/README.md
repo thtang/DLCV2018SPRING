@@ -5,8 +5,8 @@ This folder contains the implementation of
 * Auxiliary Classifier Generative Adversarial Networks (ACGAN)
 * InfoGAN
 
-on part of CelebA dataset.
-
+on part of CelebA dataset. <br>
+For details, refers to the [PPT](https://github.com/thtang/DLCV2018SPRING/blob/master/hw4/dlcv_hw4.pdf) provided by TA.
 ## Usage:
 ### Training:
 Refers to the **[train](https://github.com/thtang/DLCV2018SPRING/tree/master/hw4/train)** folder.
