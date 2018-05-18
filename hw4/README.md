@@ -38,7 +38,7 @@ python3 ACGAN_inference.py [path to ./hw4_data/] [output folder] [GPU id] [model
 #### Auxiliary Classifier GAN: *smiling generation [Smile/No Smile]*
 ![Alt Text](https://github.com/thtang/DLCV2018SPRING/blob/master/hw4/gif/ACGAN.gif)
 #### InfoGAN: *Manipulating latent codes on part of CelebA (hairstyle)*
-![Alt Text](https://github.com/thtang/DLCV2018SPRING/blob/master/hw4/gif/InfoGan.gif)
+![Alt Text](https://github.com/thtang/DLCV2018SPRING/blob/master/hw4/gif/InfoGAN.gif)
 
 #### Reference
 [1] https://github.com/thtang/ADLxMLDS2017/tree/master/hw4 <br>
