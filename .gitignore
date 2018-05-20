@@ -6,3 +6,5 @@
 *-checkpoint.ipynb
 *.pyc
 *.mp4
+train*
+valid*
