@@ -8,3 +8,5 @@
 *.mp4
 train*.pkl
 valid*.pkl
+*.txt
+*.csv
