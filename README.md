@@ -1,5 +1,9 @@
 # Deep Learning for Computer Vision
-*Before you start, listen to a song: <a href="https://goo.gl/yLRxG2" target="_blank"> Kidswaste - Free </a>*
+*Teacher: Maria, go to the map and find North America.<br>
+Maria: Here it is.<br>
+Teacher: Correct. Now class, who discovered America ?<br>
+CLASS: Maria.<br>*
+
 1. Principal Component Analysis and k-Nearest Neighbors Classification [[link]](https://github.com/thtang/DLCV2018SPRING/tree/master/hw1)
 2. Kernel method; Color and texture segmentation; Recognition with bag of visual words [[link]](https://github.com/thtang/DLCV2018SPRING/tree/master/hw2)
 3. Semantic segmentation of satellite images [[link]](https://github.com/thtang/DLCV2018SPRING/tree/master/hw3)
