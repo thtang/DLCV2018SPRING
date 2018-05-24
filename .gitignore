@@ -10,3 +10,4 @@ train*.pkl
 valid*.pkl
 *.txt
 *.csv
+*-Copy1.ipynb
