@@ -39,4 +39,6 @@ bash hw5_p3.sh [directory of full-length validation videos folder] [directory of
 
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/temporal_action_segmentation_.png">
 
-
+## Reference:
+[1] https://zhuanlan.zhihu.com/p/34418001 <br>
+[2] https://github.com/thtang/ADLxMLDS2017/tree/master/hw1
