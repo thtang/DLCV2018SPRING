@@ -17,7 +17,7 @@ import skimage.io
 import skimage
 
 import torch.nn as nn
-os.environ["CUDA_VISIBLE_DEVICES"]="1"
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 def normalize(image):
     '''
@@ -86,25 +86,6 @@ class seq2seq(nn.Module):
 
         return category
 
-class Loss(nn.Module):
-    def __init__(self):
-        super(Loss, self).__init__()
-
-    def forward(self, model_output, groundtruth, lengths):
-        
-        criterion = nn.CrossEntropyLoss()
-        loss = 0
-        batch_size = model_output.size()[0]
-
-        for i in range(batch_size):
-            sample_length = lengths[i]
-            target = groundtruth[i].type(torch.LongTensor).cuda()
-            prediction = model_output[i][:sample_length]
-            partial_loss = criterion(prediction, target)
-            loss += partial_loss
-        loss = loss / batch_size
-
-        return loss
 print("load model ...")
 feature_size = 1024*7*7
 model = seq2seq(feature_size,hidden_size=512,dropout=0.5, n_layers=2).cuda()
