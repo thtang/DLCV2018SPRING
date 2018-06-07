@@ -44,6 +44,12 @@ bash hw5_p3.sh [directory of full-length validation videos folder] [directory of
 
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/temporal_action_segmentation_tab20.png">
 
+* Color index and its corresponding gener:
+
+|     Index   |0 | 1 | 2|3|4|5|6|7|8|9|10
+| ------------- |:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| *genres*    |Other | Inspect/Read |Open|Take|Cut|Put|Close|Move Around|Divide/Pull|Pour|Transfer
+
 ## Reference:
 [1] https://zhuanlan.zhihu.com/p/34418001 <br>
 [2] https://github.com/thtang/ADLxMLDS2017/tree/master/hw1
