@@ -4,6 +4,11 @@ This folder contains the implementation of
 * Trimmed action recognition using RNN
 * Temporal action segmentation using Seq2seq model
 
+Dataset:
+* Task 1 & Task2: 4151 trimmed videos (each 5-20 secs in 24 fps with size 240x320)
+* Task 3: 29 full-length videos (with size 240x320)
+* 11 action labels
+
 For details, refers to the [PPT](https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/dlcv_hw5.pdf) provided by TA.
 
 ## Usage
@@ -32,7 +37,7 @@ bash hw5_p3.sh [directory of full-length validation videos folder] [directory of
 | ------------- |:-------------:|:-----:|:-----:|
 | *Validation Acc.*    | 0.475 | 0.510 | 0.5779
 
-* Visualization of CNN-based video features (left) and RNN-based video features (right).
+* Visualization of CNN-based video features (**left**) and RNN-based video features (**right**).
 
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/CNN_tsne.png" width=430><img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/RNN_tsne.png" width=430><br>
 * Visualization of Temporal action segmentation.
