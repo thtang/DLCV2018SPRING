@@ -15,7 +15,7 @@ Refers to the **[train](https://github.com/thtang/DLCV2018SPRING/tree/master/hw4
 bash hw4.sh [path to ./hw4_data/] [output folder]
 ```
 or 
-```
+```bash
 # VAE inference
 python3 VAE_inference.py [path to ./hw4_data/] [output folder] [GPU id] [model path]
 
