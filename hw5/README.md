@@ -42,7 +42,7 @@ bash hw5_p3.sh [directory of full-length validation videos folder] [directory of
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/CNN_tsne.png" width=430><img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/RNN_tsne.png" width=430><br>
 * Visualization of Temporal action segmentation.
 
-<img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/temporal_action_segmentation_.png">
+<img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/temporal_action_segmentation1.png">
 
 ## Reference:
 [1] https://zhuanlan.zhihu.com/p/34418001 <br>
