@@ -39,7 +39,7 @@ bash hw5_p3.sh [directory of full-length validation videos folder] [directory of
 
 * Visualization of CNN-based video features (**left**) and RNN-based video features (**right**).
 
-<img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/CNN_tsne.png" width=430><img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/RNN_tsne.png" width=430><br>
+<img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/CNN_tsne.png" width=430><img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/RNN_tsne.png" width=440><br>
 * Visualization of Temporal action segmentation (OP06-R05-Cheeseburger).<br>
 <img src="https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/images/temporal_action_segmentation_with_frames.png">
 
