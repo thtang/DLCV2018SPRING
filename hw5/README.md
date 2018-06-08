@@ -28,7 +28,7 @@ bash hw5_p2.sh [directory of trimmed validation videos folder] [path of ground-t
 bash hw5_p3.sh [directory of full-length validation videos folder] [directory of output labels folder]
 ```
 #### Dependency:
-`Python3` `pytorch==0.4` `torchvision==0.2.1` `skimage` `matplotlib` `skvideo`
+`Python3` `pytorch==0.4` `torchvision==0.2.1` `skimage` `matplotlib` `skvideo` `ffmpeg`
 
 ## Results:
 * Performance in accuracy
