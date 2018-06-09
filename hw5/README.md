@@ -12,6 +12,13 @@ Dataset:
 For details, refers to the [PPT](https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/dlcv_hw5.pdf) provided by TA.
 
 ## Usage
+### Preprocessing:
+Task 1 & Task2
+1. Videos to images: [preprocessing.ipynb](https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/preprocessing.ipynb)
+2. Images to features : [train/CNN_features.ipynb](https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/train/CNN_features.ipynb) and [train/RNN_feature_extractor.ipynb](https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/train/RNN_feature_extractor.ipynb)
+
+Task 3
+1. Images to features : [train/RNN_feature_extractor.ipynb](https://github.com/thtang/DLCV2018SPRING/blob/master/hw5/train/RNN_feature_extractor.ipynb)
 ### Training:
 Refers to the [**train**](https://github.com/thtang/DLCV2018SPRING/tree/master/hw5/train) folder.
 
