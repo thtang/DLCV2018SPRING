@@ -8,6 +8,8 @@
 *.mp4
 train*.pkl
 valid*.pkl
+test*.pkl
 *.txt
 *.csv
 *-Copy1.ipynb
+.DS_Store
