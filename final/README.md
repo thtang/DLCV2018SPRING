@@ -6,6 +6,8 @@ bash run.sh test_image_path output_filename
 - Validation accuracy: 86.166%
 
 --------
+### Dependency
+`Python3` `tensorflow` `pytorch` `keras` `imgaug` `numpy` `sklearn` `matplotlib` `skimage` `pandas` `torchvision` `tensorboardX`
 
 ## Baseline
 - We always train a baseline model first __without any constraints__.
