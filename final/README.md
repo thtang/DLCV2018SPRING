@@ -55,8 +55,5 @@ python3 test.py -i finalized_npy -o output_csv_file -tp test_path
 * [finalized](https://www.dropbox.com/s/9dkpvttpymbxlr4/save_finetune.zip?dl=0)
 
 ## Authors
-Chun-Min Chang
-Tsun-Hsien Tang
-Chia-Ching Lin
-Kai-Chun Su
+*Chun-Min Chang, Tsun-Hsien Tang, Chia-Ching Lin, Kai-Chun Su*
 
