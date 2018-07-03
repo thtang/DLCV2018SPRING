@@ -12,4 +12,4 @@ test*.pkl
 *.txt
 *.csv
 *-Copy1.ipynb
-.DS_Store
+*.DS_Store
