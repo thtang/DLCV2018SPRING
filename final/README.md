@@ -48,11 +48,14 @@ Test the finalized model
 ```
 python3 test.py -i finalized_npy -o output_csv_file -tp test_path
 ```
+Code for other benchmark model and development notebook are shown in [dev_folder](https://github.com/thtang/DLCV2018SPRING/tree/master/final/dev_notebook).<br>
+For more information, please refer to our [poster](https://github.com/thtang/DLCV2018SPRING/blob/master/final/poster.pdf).
 
-## Model
+## Trained Model
 * [baseline](https://www.dropbox.com/s/c1u540426hxb0bc/save_baseline.zip?dl=0)
 * [sparse w/o finetuning](https://www.dropbox.com/s/3v8f2cuv3wf9f2u/save_full.zip?dl=0)
 * [finalized](https://www.dropbox.com/s/9dkpvttpymbxlr4/save_finetune.zip?dl=0)
+
 
 ## Authors
 *Chun-Min Chang, Tsun-Hsien Tang, Chia-Ching Lin, Kai-Chun Su*
