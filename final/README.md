@@ -15,14 +15,14 @@ pip install -r requirements.txt
 ## Baseline
 - We always train a baseline model first __without any constraints__.
 ```
-python3 train.py -tp train_path -tf train_file_txt -vp valid_path -vf valid_file_txt -s save_dir 
+python3 train.py -tp [train_path] -tf [train_file_txt] -vp [valid_path] -vf [valid_file_txt] -s [save_dir]
 ```
 - Add these three arguments, ```-ls 0.0 -lm 0.0 -pt all-one```, to the above command.
 
 ## Train
 - Train an efficient VGG-16 with sparsity penalty and monotonicity-induced penalty
 ```
-python3 train.py -tp train_path -tf train_file_txt -vp valid_path -vf valid_file_txt -s save_dir
+python3 train.py -tp [train_path] -tf [train_file_txt] -vp [valid_path] -vf [valid_file_txt] -s [save_dir]
 ```
 - A dictionary, named para_dict.npy, will be stored into the specified directory (save_dir).
 - We suggest to leverage the baseline model as the pre-trained model by adding argument
@@ -39,14 +39,14 @@ python3 train.py -tp train_path -tf train_file_txt -vp valid_path -vf valid_file
 ## Prune
 - Prune a model based on the magnitude of scaling factors by a threshold (default=0.05)
 ```
-python3 sparsify.py -i input_npy -o output_npy -th threshold
+python3 sparsify.py -i [input_npy] -o [output_npy] -th [threshold]
 ```
 
 ![sub-network](plot/pruning.png)
 
 - Get a sub-model, for example: given a proportion = 1/2 = 50%
 ```
-python3 stratify.py -i input_npy -o output_npy -dp (0,1]
+python3 stratify.py -i [input_npy] -o [output_npy] -dp [value (0,1] ]
 ```
 
 - Visualization of pruned network
@@ -56,16 +56,20 @@ python3 stratify.py -i input_npy -o output_npy -dp (0,1]
 ## Finetune
 - Finetune the pruned model
 ```
-python3 finetune.py -i sparse_npy -tp train_path -tf train_file_txt -vp valid_path -vf valid_file_txt -s save_dir
+python3 finetune.py -i [sparse_npy] -tp [train_path] -tf [train_file_txt] -vp [valid_path] -vf [valid_file_txt] -s [save_dir]
 ```
 - A finalized dictionary, also named para_dict.npy, will be stored into the specified directory (save_dir). 
 
 ## Test
 Test the finalized model
 ```
-python3 test.py -i finalized_npy -o output_csv_file -tp test_path
+python3 test.py -i [finalized_npy] -o [output_csv_file] -tp [test_path]
 ```
 
+Inference using extract features and KNN
+```
+python3 test_1NN.py -i [finalized_npy] -o [output_csv_file] -tp [test_path] -train [data path, e.g., ./dlcv_final_2_dataset]
+```
 ![](plot/perf_summary.png)
 
 Code for other benchmark model and development notebook are shown in [dev_folder](https://github.com/thtang/DLCV2018SPRING/tree/master/final/dev_notebook).<br>
