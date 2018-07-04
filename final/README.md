@@ -1,3 +1,9 @@
+# Face Recognition and Model Compression
+## Task description
+* Train a classifier to recognize human faces.
+* Squeeze the model for practical uses.
+
+For more information, please refer to [PPT](https://github.com/thtang/DLCV2018SPRING/blob/master/final/Challenge%20%232_%20%20Face%20Recongnition.pdf) provided by TA.
 ## Quick start
 - Test accuracy: 86.395%, rank 2 on [leaderboard](https://www.kaggle.com/c/2018-spring-dlcv-final-project-2/leaderboard); validation accuracy: 86.166%
 ```
