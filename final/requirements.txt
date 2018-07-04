@@ -1,0 +1,5 @@
+tensorflow==1.4.0
+imgaug==0.2.5
+scikit-image==0.13.1
+numpy==1.14.0
+pandas==0.20.3
