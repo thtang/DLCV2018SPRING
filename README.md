@@ -8,6 +8,8 @@ Course website: http://vllab.ee.ntu.edu.tw/dlcv.html
 3. Semantic segmentation of satellite images [[link]](https://github.com/thtang/DLCV2018SPRING/tree/master/hw3)
 4. Image Generation and Feature Disentanglement [[link]](https://github.com/thtang/DLCV2018SPRING/tree/master/hw4)
 5. Recurrent neural networks (RNN) for action	recognition [[link]](https://github.com/thtang/DLCV2018SPRING/tree/master/hw5)
+6. Face Recognition and model compression[[link]](https://github.com/thtang/DLCV2018SPRING/tree/master/final)
+
 ## Experiment environment
 * OS: Ubuntu 16.04.3 LTS
 * Python 3
