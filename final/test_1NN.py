@@ -95,10 +95,10 @@ def test(FLAG):
         print()
 
         ## extract features from validation data
-        for i in range(int(Xtrain.shape[0]/200+1)):
-            print("extract training features {0}".format(i), end="\r")
+        for i in range(int(Xvalid.shape[0]/200+1)):
+            print("extract validation features {0}".format(i), end="\r")
             st = i*200
-            ed = min((i+1)*200, Xtrain.shape[0])
+            ed = min((i+1)*200, Xvalid.shape[0])
             prob = sess.run(model.features, feed_dict={model.x: Xvalid[st:ed,:], 
                                                        model.is_train: False,
                                                        model.bn_train: False})
@@ -137,13 +137,6 @@ def test(FLAG):
     pred_test = np.argmax(cos_sim, axis=1)
     final_id = list()
     for pred in pred_test:
-        final_id.append(inv_y_dict[pred])
-
-    print("converting labels")
-    pred_prob = np.concatenate(output)
-    pred_class = np.argmax(pred_prob, 1)
-    final_id = list()
-    for pred in pred_class:
         final_id.append(inv_y_dict[pred])
     doutput = pd.DataFrame({'id':np.arange(len(final_id))+1, 'ans':final_id}, columns=['id','ans'])
 
