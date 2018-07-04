@@ -7,7 +7,7 @@ For more information, please refer to [PPT](https://github.com/thtang/DLCV2018SP
 ## Quick start
 - Test accuracy: 86.395%, rank 2 on [leaderboard](https://www.kaggle.com/c/2018-spring-dlcv-final-project-2/leaderboard); validation accuracy: 86.166%
 ```
-bash run.sh test_image_path output_filename
+bash run.sh [test_image_path] [output_filename]
 ```
 - Environment requirements
 ```
