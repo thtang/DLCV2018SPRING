@@ -91,3 +91,7 @@ For more information, please refer to our [poster](https://github.com/thtang/DLC
 
 ## Authors
 [Chun-Min Chang](https://github.com/twcmchang/DLCV2018SPRING/tree/master/final), Tsun-Hsien Tang, Chia-Ching Lin, Kai-Chun Su
+
+## Reference
+[1] [hungnguyen94/SqueezeNet-Keras](https://github.com/hungnguyen94/SqueezeNet-Keras)<br>
+[2] [marvis/pytorch-mobilenet](https://github.com/marvis/pytorch-mobilenet/blob/master/benchmark.py)
