@@ -16,3 +16,6 @@ Course website: http://vllab.ee.ntu.edu.tw/dlcv.html
 * GPU: 1080 Ti (11G RAM)
 * CPU: Xeon(R) E5-2667 v4
 * RAM: 500 GB
+
+## Contact:
+Feel free to contact me (thtang@nlg.csie.ntu.edu.tw) if you have any problem.
