@@ -175,6 +175,6 @@ print("The accuracy on testing set:", acc)
     The accuracy on testing set: 0.9625
 
 
-# Bonux
+# Bonus
 
 <img src="p2.jpg">
