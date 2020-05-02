@@ -42,5 +42,5 @@ FCN8s results:
 0097|![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_sat.jpg)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_1.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_10.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0097_mask_20.png) 
 0107|![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_sat.jpg)  |  ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_1.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_10.png) | ![](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/image/0107_mask_20.png) 
 ## Reference
-TA's PDF [[1]](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/DLCV_hw3.pdf)<br>
-Fully Convolutional Networks for Semantic Segmentation [[2]](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+[1] TA's PDF [[link]](https://github.com/thtang/DLCV2018SPRING/blob/master/hw3/DLCV_hw3.pdf)<br>
+[2] Fully Convolutional Networks for Semantic Segmentation [[link]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)
