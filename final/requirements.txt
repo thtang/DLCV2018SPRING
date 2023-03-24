@@ -1,4 +1,4 @@
-tensorflow==1.4.0
+tensorflow==2.11.1
 imgaug==0.2.5
 scikit-image==0.13.1
 numpy==1.14.0
